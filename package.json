@@ -1,0 +1,48 @@
+{
+  "name": "hapi-pino-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "npm run format && npm run lint",
+    "format": "prettier --write \"**/*.+(js|yml|yaml|json)\"",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "hapi",
+    "logger",
+    "hapi-logger",
+    "hapi-pino",
+    "hapi-pino-logger"
+  ],
+  "homepage": "https://github.com/singhamjesh/hapi-pino-logger#readme",
+  "bugs": {
+    "url": "https://github.com/singhamjesh/hapi-pino-logger/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singhamjesh/hapi-pino-logger.git"
+  },
+  "author": "amjesh",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.15.0"
+  },
+  "peerDependencies": {
+    "@hapi/hapi": ">=20.x.x"
+  },
+  "dependencies": {
+    "joi": "^17.9.2",
+    "pino": "^8.14.1",
+    "pino-pretty": "^10.0.0"
+  },
+  "devDependencies": {
+    "@hapi/hapi": "^20.3.0",
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8"
+  }
+}
